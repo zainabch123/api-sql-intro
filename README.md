@@ -58,7 +58,7 @@ Write SQL SELECT statements to return films matching the below criteria:
 
 For the last query, you will need to research the `LIKE` keyword in postgres.
 
-## Extension 2
+## Extension 1
 Write a SQL SELECT statements to:
 * Return the average film rating
 * Return the total number of films
@@ -66,8 +66,8 @@ Write a SQL SELECT statements to:
 
 For these, you will need to research `COUNT`, `AVG` and `GROUP BY` keywords in postgres.
 
-## Extension 3
+## Extension 2
 Create a new `directors` table. Each director should have a name and a unique director id. Recreate your films table and add a `directorId` column. Insert a few director records (the data does not need to be real, you can just make directors up). Re-insert your film data, updating each film with have a `directorId`. Using a SQL `JOIN`, write a SELECT statement that returns a list of films with their director.
 
-## Extension 4
+## Extension 3
 Write a SQL SELECT statement that returns a lists of directors along with the number of films they have directed.
