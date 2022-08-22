@@ -14,7 +14,7 @@ Sign up to [Elephant SQL](https://www.elephantsql.com/) and create a new databas
 
 ## Standard Criteria
 Write a SQL CREATE TABLE statement that creates a table to store `films`. The table should have the following columns:
-* A unique film id (this should be the primary key, use `SERIAL` to make it increment automatically)
+* A unique film id (this should be the primary key, use `SERIAL` or `INTEGER AUTOINCREMENT` to make it increment automatically)
 * A unique title
 * A genre
 * A release year (make this `integer` data type)
